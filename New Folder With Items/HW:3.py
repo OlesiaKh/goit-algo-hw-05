@@ -149,9 +149,9 @@ if __name__ == '__main__':
         print(f"{result[0]:<30} | {result[1]:<20} | {result[2]:<15.5f}")
 
   
-    print("Виконання Боєра-Мура:", boyer_moore_search(text, existing_substring))
-    print("Виконання Кнута-Морріса-Пратта:", kmp_search(text, existing_substring))
-    print("Виконання Рабіна-Карпа:", rabin_karp_search(text, existing_substring))
+    print("Пошук Боєра-Мура:", boyer_moore_search(text, existing_substring))
+    print("Пошук Кнута-Морріса-Пратта:", kmp_search(text, existing_substring))
+    print("Пошук Рабіна-Карпа:", rabin_karp_search(text, existing_substring))
 
 
 text = read_file("/Users/olesiakholod1/Desktop/Masters+Analytics/Algo:HW: repo/5/стаття 2.txt")
@@ -177,7 +177,7 @@ if __name__ == '__main__':
         print(f"{result[0]:<30} | {result[1]:<20} | {result[2]:<15.5f}")
 
   
-    print("Виконання Боєра-Мура:", boyer_moore_search(text, existing_substring))
-    print("Виконання Кнута-Морріса-Пратта:", kmp_search(text, existing_substring))
-    print("Виконання Рабіна-Карпа:", rabin_karp_search(text, existing_substring))
+    print("Пошук Боєра-Мура:", boyer_moore_search(text, existing_substring))
+    print("Пошук Кнута-Морріса-Пратта:", kmp_search(text, existing_substring))
+    print("Пошук Рабіна-Карпа:", rabin_karp_search(text, existing_substring))
     
